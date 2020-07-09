@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+
+    padding: 0;
+    border: 0;
+    height: 100%;
+    text-align: center;
+}
+body{
+    justify-content: center;
+    text-align: center;
+}
+header{
+    background-color: springgreen;
+    height: 50px;
+    font-size: xx-large;
+}
+
+.all{
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    display: flex;
+
+}
+.drums-zone{
+    justify-content: center;
+    text-align: center;
+    margin: 5px;
+  
+}
+.guitar-zone{
+    justify-content: center;
+    text-align: center;
+    margin: 5px;
+
+}
+.weird-zone{
+    justify-content: center;
+    text-align: center;
+    margin: 5px;
+
+}
+
+#drum-box{
+    background-color: black;
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    
+}
+#guitar-box{
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+}
+#weird-box{
+    background-color: yellow;
+    width: 150px;
+    height: 150px;
+    margin:5px;
+}
+
+.notes-col-highlighted{
+    background-color: lightsalmon;
+    box-shadow: 2px 2px 5px peachpuff;
+}
+.active{
+    border:8px solid green;
+}
+.buttons{
+    display: flex;
+    height: 40px;
+}
+
+.highlight{
+    border: 8px solid purple;
+}
