@@ -8,17 +8,26 @@ html, body{
     border: 0;
     height: 100%;
     text-align: center;
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 body{
     justify-content: center;
     text-align: center;
 }
 header{
-    background-color: springgreen;
-    height: 50px;
+    height: 200px;
     font-size: xx-large;
 }
-
+header p{
+    margin:5px;
+    background-color: black;
+    opacity: 0.7;
+    font-size:70px;
+    color:white;
+    display: inline;
+}
 .all{
     padding: 0;
     margin: 0;
@@ -26,6 +35,7 @@ header{
     text-align: center;
     position: relative;
     display: flex;
+
 
 }
 .drums-zone{
@@ -47,38 +57,69 @@ header{
 
 }
 
-#drum-box{
-    background-color: black;
+#first-box, #second-box,#third-box,#fourth-box,#fifth-box,#sixth-box{
+    border: 5px solid black;
     width: 150px;
     height: 150px;
-    margin: 5px;
-    
-}
-#guitar-box{
-    background-color: red;
-    width: 150px;
-    height: 150px;
-    margin: 5px;
-}
-#weird-box{
-    background-color: yellow;
-    width: 150px;
-    height: 150px;
-    margin:5px;
+    margin: 5px;  
 }
 
-.notes-col-highlighted{
-    background-color: lightsalmon;
-    box-shadow: 2px 2px 5px peachpuff;
-}
 .active{
-    border:8px solid green;
+    background-color: black;
+    border: 5px solid red !important; 
 }
 .buttons{
-    display: flex;
-    height: 40px;
+    display: inline-block;
+    height: 200px;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    width: 300px;
+}
+.buttons p{
+    font-size: x-large;
+    color:white;
+    background-color: black;
+    opacity: 0.7;
 }
 
 .highlight{
-    border: 8px solid purple;
+    border: 6px solid purple !important;
+    overflow: hidden;
+}
+.start-button{
+    background-color:black;
+    opacity: 0.8;
+    color:white;
+    height: 100px;
+    width: 100px;
+    font-size: large ;
+    cursor: pointer;
+}
+.stop-button{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    font-size: large ;
+    cursor: pointer;
+
+
+}
+.stop-button-stop{
+    background-color:white;
+}
+.drum1,.drum2,.drum3,.drum4,.drum5,.drum6{
+    background-image: url('drums.png');
+    background-size:cover ;
+}
+.guitar1,.guitar2,.guitar3,.guitar4,.guitar5,.guitar6{
+    background-image: url('guitar.png');
+    background-size:cover ;
+}
+.weird1,.weird2,.weird3,.weird4,.weird5,.weird6{
+    background-image: url('weird.png');
+    background-size:cover ;
+}
+.first-bar,.second-bar,.third-bar,.fourth-bar,.fifth-bar,.sixth-bar{
+    border: 9px solid transparent;
 }
